@@ -30,6 +30,7 @@ class MobileBankApiTestV1 {
 //                .body("[0].balance",greaterThanOrEqualTo(0))
 //                .body("every {it.balance >= 0}",is(true))
 //                .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
+                .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
 
         ;
     }
